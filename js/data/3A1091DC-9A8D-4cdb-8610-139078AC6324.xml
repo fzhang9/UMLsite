@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.3.2.1", "1", "Azimuth Propeller Blimp", "EARoot/EA3/EA2/EA1/EA1352.htm", "4.png", "", "", "{EE472375-6267-46d7-8418-53DC2C16CF29}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.2", "1", "WTF Teleop", "EARoot/EA3/EA2/EA2/EA1369.htm", "4.png", "", "", "{536869DF-9DA4-42e0-9686-35F6A261B012}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.3", "1", "Computer Vision", "EARoot/EA3/EA2/EA3/EA1417.htm", "4.png", "", "", "{8763AA30-D4F6-4214-A2D8-B7B1641BE335}", "Package");

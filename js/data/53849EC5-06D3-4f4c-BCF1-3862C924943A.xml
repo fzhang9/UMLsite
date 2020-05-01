@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.2.2.3.1", "1", "B001: Teleop Ball Through Hoop", "EARoot/EA2/EA2/EA3/EA1/EA782.htm", "4.png", "", "", "{EC58941A-4552-4276-A7CC-3D1D479BBD55}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.3.2", "1", "B002: Object tracking and Depth Perception", "EARoot/EA2/EA2/EA3/EA2/EA877.htm", "4.png", "", "", "{1075C3E6-4A1C-47d3-9895-A5E4F5DA5743}", "Package");

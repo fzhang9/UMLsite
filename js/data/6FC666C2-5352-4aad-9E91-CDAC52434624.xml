@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.2.2.1", "1", "Final", "EARoot/EA2/EA2/EA1/EA569.htm", "4.png", "", "", "{36894530-DF5E-495b-979F-5EA1C2385E1B}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.2", "1", "Future Testing Strategies ", "EARoot/EA2/EA2/EA2/EA578.htm", "4.png", "", "", "{D58E3174-C1BF-497e-AD0B-90E06464C068}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.3", "1", "Individual Testing", "EARoot/EA2/EA2/EA3/EA757.htm", "4.png", "", "", "{53849EC5-06D3-4f4c-BCF1-3862C924943A}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.4", "1", "Midterm", "EARoot/EA2/EA2/EA4/EA974.htm", "4.png", "", "", "{4E2D8E6D-CB2C-4e5d-BE6A-F157A22F19D8}", "Package");

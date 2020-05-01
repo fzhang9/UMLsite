@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>RunController</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA1250.png" usemap="#EA1250" border="0" />
+
+<MAP NAME="EA1250">
+<area shape="rect" coords="213,408,280,458" href="EA1302.htm" target="_self">
+<area shape="rect" coords="212,310,279,360" href="EA1300.htm" target="_self">
+<area shape="rect" coords="210,212,277,262" href="EA1304.htm" target="_self">
+<area shape="rect" coords="346,116,352,470" href="EA1326.htm" target="_self">
+<area shape="rect" coords="210,114,277,164" href="EA1334.htm" target="_self">
+<area shape="rect" coords="95,408,162,458" href="EA1301.htm" target="_self">
+<area shape="rect" coords="95,310,162,360" href="EA1299.htm" target="_self">
+<area shape="rect" coords="97,212,164,262" href="EA1303.htm" target="_self">
+<area shape="rect" coords="95,114,162,164" href="EA1333.htm" target="_self">
+<area shape="rect" coords="60,109,66,463" href="EA1325.htm" target="_self">
+<area shape="rect" coords="404,283,424,303" href="EA1332.htm" target="_self">
+<area shape="rect" coords="31,10,51,30" href="EA1331.htm" target="_self">
+<area shape="rect" coords="10,384,320,482" href="EA1330.htm" target="_self">
+<area shape="rect" coords="10,286,320,384" href="EA1329.htm" target="_self">
+<area shape="rect" coords="10,188,320,286" href="EA1328.htm" target="_self">
+<area shape="rect" coords="10,90,320,188" href="EA1327.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">RunController : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">4/27/2020 10:14:39 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">4/27/2020 10:51:50 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Ryan</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{728D6796-7703-40fd-A57A-CA42C982DFE5}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
